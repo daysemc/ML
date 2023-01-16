@@ -3,6 +3,8 @@
 import numpy as np
 import tensorflow as tf
 from keras.layers import Dense
+from keras.layers import Input
+from keras.models import Model
 
 def MLP(input,x_train,y_train,x_evaluate,y_evaluate):
     
