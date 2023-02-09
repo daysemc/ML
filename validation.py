@@ -1,6 +1,6 @@
 def Evaluate(model,history,x_evaluate,y_evaluate):
 
-    # print valores de loss e accuracy para o dataset 'test
+    # print valores de loss e accuracy para o dataset 'test'
     val_loss,val_acc = model.evaluate(x_evaluate,y_evaluate)
     print(val_loss,val_acc)
 
